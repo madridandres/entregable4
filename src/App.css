@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+    text-align: left;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    margin-right: 40px;
+    width: 60%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px 25px;
+    background-color: rgb(32, 173, 98);
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.users-form{
+    margin: 10px 10px 10px 10px;
+    width: 35%;
+    height: 400px;
+}
+
+.users-form i{
+    color: rgb(32, 173, 98);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.card-user{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.fa-trash{
+    color: red;
+}
+
+.button-form{
+    background-color: rgb(32, 173, 98);
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    border: none;
+    background-color: rgb(220, 217, 217);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.large{
+    width: 95%;
+}
+
+.short{
+    width: 47%;
+}
+
+.user-info{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
